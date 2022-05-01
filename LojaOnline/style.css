@@ -1,0 +1,107 @@
+body{
+    background-color: #fcffd4;
+    color:#730707;
+    font-family: monospace;
+    border: #730707 4px solid;
+    border-radius: 10px;
+}
+#cabecalho{
+    border: #730707 5px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#conteudo{
+    background-color: #fcffd4;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2px;
+}
+
+a{
+    font-family: monospace;
+    color: #ffb8b8;
+    text-decoration: none;
+    border: #ffb8b8 2px solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#logoDaLoja{
+    width: 50%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#tituloDestaque{
+    display: flex;
+    justify-content: center;
+}
+#produtos{
+    display: flex;
+    justify-content: center;
+}
+.foto{    
+    height: 300px;
+    margin-left: 5px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.produtosDestaque{
+    display: block;
+    
+}
+.preco{
+    text-align: center;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+#rodape {
+    border: #730707 4px solid;
+    display: flex;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+#redesSociais{
+    padding-top: 50px;
+}
+.icone{
+    width: 20px;
+}
+#email{
+    display: block;
+    justify-content: left;
+}
+
+#fique , #inputEmail , button{
+    display: block;
+    margin-bottom: 15px;
+}
+#inputEmail, button{
+    background-color: #730707;
+    color: #fcffd4;
+    border: #730707 solid;
+}
+input::placeholder {
+    color:#fcffd4;
+}
+button{
+    border-radius: 10px;
+    box-shadow:#730707 2px 2px 5px;
+}
